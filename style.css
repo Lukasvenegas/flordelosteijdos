@@ -205,12 +205,28 @@ footer {
     }
 
 @media (max-width:720px){
-    .nav-links{
+    .pantallas-chicas{
         display: none;
     }
 
     .Logo{
-        heigth: 50px;
-        width: 50px;
+        height: 80px;
+        width: 80px;
+        margin-right: 10px; /* Espacio entre el logo y el menú */
+        top: -50px; /* Ajusta la posición vertical del logo */
+        position: relative; /* Asegura que el logo se posicione correctamente */
    }
+
+   header{
+    height: 150px;
+   }
+
+   .search-container{
+        margin-top: -95px;
+    }
+
+    .search-container.active #search{
+        width: 150px;
+    }
+
 }
